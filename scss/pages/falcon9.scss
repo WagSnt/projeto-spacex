@@ -2,4 +2,24 @@
   &.falcon9 {
     background-image: url(../images/falcon9/01.jpg);
   }
+
+  &.info {
+    background-image: url(../images/falcon9/02.jpg);
+  }
+
+  &.tables {
+    background-color: black;
+  }
+}
+
+.numbers {
+  background-color: black;
+  height: 30vh;
+}
+
+
+#teste {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
