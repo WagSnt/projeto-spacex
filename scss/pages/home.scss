@@ -1,34 +1,46 @@
-* {
-  color: white;
-}
+.container00 {
+  &.floki {
+    background-image: url(../images/home/01.jpg);
+  }
 
-.floki {
-  background-image: url(../images/home/01.jpg);
-  height: 100vh;
+  &.ragnar {
+    background-image: url(../images/home/03.jpg);
+  }
+
+  &.bjorn {
+    background-image: url(../images/home/04.gif);
+  }
+
+  &.rollo {
+    background-image: url(../images/home/05.jpg);
+  }
 }
 
 .header {
   font-size: 12px;
   font-weight: bolder;
-}
-
-.ragnar {
-  background-image: url(../images/home/03.jpg);
-  height: 100vh;
-}
-
-.bjorn {
-  background: url(../images/home/04.gif) center no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
-
-.rollo {
-  background-image: url(../images/home/05.jpg);
-  height: 100vh;
+  padding-top: 10px;
 }
 
 .footer {
   background-color: black;
   height: 150px;
+}
+
+.title-padding {
+  padding-top: 200px;
+}
+
+.short-title { /*classe colocada em títulos longos, para quebrar */
+  width: 550px;
+  margin-bottom: 20px;
+}
+
+.medium-title {
+  width: 650px;
+  margin-bottom: 20px;
+}
+
+#button {
+  padding: $padding-button;
 }

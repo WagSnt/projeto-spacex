@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+.container00 { /*Estrutura presentes em todos os containers*/
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowdown {
+  display: inline-block; /* para ficar na mesma linha do button */
+  height: 50px;
+  margin-top: 5px;
+}
+
+.logopc {
+  width: 240px;
+  margin-left: -10px; /* botar logo mais para a esquerda */
+  margin-right: 20px;
+}
+
