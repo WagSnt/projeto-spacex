@@ -16,14 +16,6 @@
   }
 }
 
-.header {
-  font-size: 12px;
-  font-weight: bolder;
-  padding-top: 10px;
-}
-
-
-
 .title-padding {
   padding-top: 200px;
 }
@@ -36,4 +28,17 @@
 .medium-title {
   width: 650px;
   margin-bottom: 20px;
+}
+
+//Media Query
+
+@media (max-width: 750px) {
+  .tittle-padding {
+    padding-top: 120px;
+  }
+
+  .short-title, .medium-title {
+    width: auto;
+    font-size: 50px;
+  }
 }
