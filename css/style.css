@@ -36,6 +36,7 @@
 
 #button {
   padding: 15px 35px;
+  border: 2px solid white;
 }
 
 .footer {
@@ -92,7 +93,7 @@
 
 .short-title { /*classe colocada em títulos longos, para quebrar */
   width: 550px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .medium-title {
@@ -108,6 +109,9 @@
     width: auto;
     font-size: 50px;
   }
+}
+.container00.falcon9 {
+  background-image: url(../images/falcon9/01.jpg);
 }
 
 /*# sourceMappingURL=style.css.map */
