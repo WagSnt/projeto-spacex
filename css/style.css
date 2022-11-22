@@ -116,8 +116,23 @@
 .container00.info {
   background-image: url(../images/falcon9/02.jpg);
 }
-.container00.tables {
-  background-color: black;
+.container00.carrossel00 {
+  background-image: url(../images/falcon9/03.jpg);
+}
+.container00.carrossel01 {
+  background-image: url(../images/falcon9/04.jpg);
+}
+.container00.carrossel02 {
+  background-image: url(../images/falcon9/05.jpg);
+}
+.container00.carrossel03 {
+  background-image: url(../images/falcon9/06.jpg);
+}
+.container00.carrossel04 {
+  background-image: url(../images/falcon9/07.jpg);
+}
+.container00.merlin {
+  background-image: url(../images/falcon9/08.jpg);
 }
 
 .numbers {
