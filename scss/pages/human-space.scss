@@ -98,6 +98,19 @@
     font-weight: 300;
     margin-bottom: 40px;
   }
+
+  .info-email {
+    background-color: black;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    .desc-email {
+      width: auto;
+      padding-top: 90px;
+      font-size: 110px;
+    }
 }
 
 @media (max-width: 370px) {
@@ -107,10 +120,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
   
     .title-human {
       font-size: 30px;
-    }
   }
 
   .title-section {
