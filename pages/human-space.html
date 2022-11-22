@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
   <!-- Link Lib AOS-->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="../images/home/favicon.png" type="image/x-icon">
   <title>OnebitX</title>
 </head>
 <body>
@@ -18,16 +20,16 @@
         <header class="header">
           <nav class="navbar navbar-expand-lg navbar-dark bg-transparent menu">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <a href="../index.html"><img src="../images/home/logo-obc-2021-darkbg.png" alt="" class="img-fluid logopc"></a>
+              <a class="navbar-brand" href="../index.html">
+                <img src="../images/home/logo-obc-2021-darkbg.png" alt="" class="img-fluid logopc">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active menu" aria-current="page" href="pages/falcon9.html" id="navitem">FALCON 9</a>
-                  <a class="nav-link active" href="pages/human-space.html" id="navitem">HUMAN SPACE FLIGHT</a>
+                  <a class="nav-link active menu" aria-current="page" href="falcon9.html" id="navitem">FALCON 9</a>
+                  <a class="nav-link active" href="human-space.html" id="navitem">HUMAN SPACE FLIGHT</a>
                 </div>
               </div>
             </div>
@@ -35,7 +37,7 @@
         </header>
       </div>
 
-      <div class="container text-center humantext-desc"> <!-- Conteúdo-->
+      <div data-aos="fade-down" data-aos-duration="2500" class="container text-center humantext-desc"> <!-- Conteúdo-->
         <p class="h1 title-human">HUMAN SPACEFLIGHT</p>
         <p class="subtitle-human">FAZENDO A VIDA MULTIPLANETÁRIA</p>
         <div class="container text-center"> <!-- Indicador de navegação -->
@@ -45,11 +47,13 @@
     </div> 
 
     <div class="container-fluid text-center info-email">
-      <p class=" h5 desc-email">SpaceX também oferece voos cormeciais para orbita terrestre e lunar. Para começar a planejar a sua jornada, por favor contate-nos por onebitcode@gmail.com</p>
+      <div data-aos="flip-left" data-aos-duration="2500">
+        <p class=" h5 desc-email">SpaceX também oferece voos cormeciais para orbita terrestre e lunar. Para começar a planejar a sua jornada, por favor contate-nos por onebitcode@gmail.com</p>
+      </div>
     </div>
 
     <div class="container-fluid container00 terra">
-      <div class="content-right">
+      <div data-aos="fade-left" data-aos-duration="2500" class="content-right">
         <p>TURISMO ESPACIAL</p>
         <p class="title-section">ORBITA DA TERRA</p>
         <p class="subtitle">EXPERIMENTE O PLANETA AZUL A 300KM DE ALTURA</p>
@@ -58,7 +62,7 @@
     </div>
 
     <div class="container-fluid container00 content-left estacao">
-      <div class="content-left">
+      <div data-aos="fade-right" data-aos-duration="2500" class="content-left">
         <p>TURISMO ESPACIAL</p>
         <p class="title-section">ESTAÇÃO ESPACIAL</p>
         <p class="subtitle">TRANSPORTANTO VOCÊ PARA O LABORATÓRIO VOADOR NO CÉU</p>
@@ -67,7 +71,7 @@
     </div>
 
     <div class="container-fluid container00 lua">
-      <div class="content-right">
+      <div data-aos="fade-left" data-aos-duration="2500" class="content-right">
         <p>TURISMO ESPACIAL</p>
         <p class="title-section">LUA</p>
         <p class="subtitle">RETORNANDO PARA A NOSSA LUA VIZINHA</p>
@@ -76,7 +80,7 @@
     </div>
 
     <div class="container-fluid container00 content-left marte">
-      <div class="content-left">
+      <div data-aos="fade-right" data-aos-duration="2500" class="content-left">
         <p>PROJETO</p>
         <p class="title-section">MARTE E ALÉM</p>
         <p class="subtitle">O CAMINHO PARA TORNAR A HUMANIDADE MULTIPLANETÁRIA</p>
@@ -85,9 +89,11 @@
     </div>
 
     <div class="container-fluid text-center container2">
-      <p>Para mais informações sobre os serviços entre em contato com <a href="mailto:onebitcode@gmail.com">wagnersantosdev@gmail.com</a></p>
-      <span><button type="button" class="btn btn-outline-light mt-5" id="button">BAIXAR GUIA DO USUÁRIO</button></span>
-      <span><button type="button" class="btn btn-outline-light mt-5" id="button">CAPACIDADES E SERVIÇOS</button></span>
+      <div data-aos="fade-up" data-aos-duration="2500">
+        <p>Para mais informações sobre os serviços entre em contato com <a href="mailto:onebitcode@gmail.com">wagnersantosdev@gmail.com</a></p>
+        <span><button type="button" class="btn btn-outline-light mt-5" id="button">BAIXAR GUIA DO USUÁRIO</button></span>
+        <span><button type="button" class="btn btn-outline-light mt-5" id="button">CAPACIDADES E SERVIÇOS</button></span>
+      </div>
     </div>
 
       <footer class="footer">

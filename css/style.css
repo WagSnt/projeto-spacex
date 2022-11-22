@@ -331,6 +331,13 @@
     font-weight: 300;
     margin-bottom: 40px;
   }
+  #button {
+    padding: 10px 15px;
+  }
+  .content-right {
+    margin-left: 50%;
+    padding-top: 20%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
