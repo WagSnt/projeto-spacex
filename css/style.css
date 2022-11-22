@@ -223,5 +223,114 @@
     font-weight: 514;
   }
 }
+.container00.human {
+  background-image: url(../images/humanflight/01.jpg);
+}
+.container00.terra {
+  background-image: url(../images/humanflight/02.jpg);
+}
+.container00.estacao {
+  background-image: url(../images/humanflight/03.jpg);
+}
+.container00.lua {
+  background-image: url(../images/humanflight/04.jpg);
+}
+.container00.marte {
+  background-image: url(../images/humanflight/05.jpg);
+}
+
+.humantext-desc {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.humantext-desc .title-human {
+  font-size: 120px;
+}
+.humantext-desc .subtitle-human {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.info-email {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info-email .desc-email {
+  width: 800px;
+  padding-top: 90px;
+  margin: auto;
+  font-size: 20px;
+}
+
+.content-right {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+
+.title-section {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.content-left {
+  margin-left: 5%;
+  padding-top: 9%;
+}
+
+@media (max-width: 750px) {
+  .humantext-desc {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .humantext-desc .title-human {
+    font-size: 60px;
+  }
+}
+@media (max-width: 480px) {
+  .title-section {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .subtitle {
+    font-weight: 300;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 370px) {
+  .humantext-desc {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .humantext-desc .title-human {
+    font-size: 30px;
+  }
+  .title-section {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .subtitle {
+    font-weight: 300;
+    margin-bottom: 40px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
