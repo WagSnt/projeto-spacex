@@ -121,6 +121,15 @@
   }
 }
 
+@media (max-width: 770px) {
+  .short-description {
+    padding-top: 300px;
+    font-size: 22px;
+    line-height: 2.3em;
+    width: auto;
+  }
+}
+
 @media (max-width: 590px) {
   .numbers {
     height: 60vh;
