@@ -28,7 +28,7 @@
   align-items: center;
 
   .title-human {
-    font-size: 120px;
+    font-size: 100px;
   }
 
   .subtitle-human {
@@ -45,10 +45,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
   .desc-email {
-    width: 800px;
+    width: 300px;
     padding-top: 90px;
-    margin: auto;
     font-size: 20px;
   }
 }
@@ -69,11 +69,12 @@
 }
 
 .content-left {
-  margin-left: 5%;
+  margin-right: 5%;
   padding-top: 9%;
 }
 
 
+// Media Query 
 @media (max-width: 750px) {
   .humantext-desc {
     height: 90vh;
@@ -111,6 +112,16 @@
       padding-top: 90px;
       font-size: 110px;
     }
+
+    .content-right {
+      margin-left: 15%;
+      padding-top: 15%;
+    }
+
+    .content-left {
+      margin-right: 5%;
+      padding-top: 9%;
+    }
 }
 
 @media (max-width: 370px) {
@@ -120,28 +131,5 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  
-    .title-human {
-      font-size: 30px;
-  }
-
-  .title-section {
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-  .subtitle {
-    font-weight: 300;
-    margin-bottom: 40px;
-  }
-
-  #button {
-    padding: 10px 15px;
-  }
-
-  .content-right {
-    margin-left: 50%;
-    padding-top: 20%;
   }
 }
